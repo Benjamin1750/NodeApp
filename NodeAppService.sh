@@ -57,7 +57,7 @@
 # PATH should only include /usr/* if it runs after the mountnfs.sh script
 PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin # modify if you need
 
-DAEMON_ARGS="/home/ubuntu/NodeApp"          # path to your node.js server/app
+DAEMON_ARGS="/home/ubuntu/NodeApp/NodeApp.js"          # path to your node.js server/app
                                             # NB: don't use ~/ in path
 
 DESC="node.js http server"                  # whatever fancy description you like
